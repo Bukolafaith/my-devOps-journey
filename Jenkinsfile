@@ -25,7 +25,7 @@ pipeline{
     stage('Linux User'){
     	steps{
     		sh 'whoami'
-    		sh " The current user is Bukola"
+    		sh " echo The current user is Bukola"
     	}
     }
   }
