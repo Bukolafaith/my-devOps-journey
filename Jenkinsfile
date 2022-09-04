@@ -9,8 +9,6 @@ pipeline{
       parallel{
         stage('System Statistics'){
           steps{
-            sh 'lscpu'
-            sh 'top'
             sh 'lsblk'
             sh 'echo System check is complete' 
 
